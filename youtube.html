@@ -16,33 +16,65 @@
   </head>
 
   <body>
-    <div class="header">
+    <header class="header">
       <div class="left-section">
+        
+       
         <img class="hamburger-menu" src="/icons/hamburger-menu.svg" />
-        <img class="youtube-logo" src="/icons/youtube-logo.svg" />
+        
+      
+      <img class="youtube-logo" src="/icons/youtube-logo.svg" />
       </div>
       <div class="middle-section">
         <input class="search-block" type="text" placeholder="Search" />
         <button class="search-button">
           <img class="search-icon" src="/icons/search.svg" />
+          <div class="tooltip">Search</div>
         </button>
+        <div class="voice-button-container">
         <button class="voice-button">
           <img class="voice-icon" src="/icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice </div>
         </button>
+        
+        </div>
       </div>
       <div class="right-section">
-        <img class="upload-icon" src="/icons/upload.svg" />
+        <div class="upload-container">
+          <img class="upload-icon" src="/icons/upload.svg" />
+          <div class="tooltip">Upload</div>
+        </div>
+       <div class="youtube-apps-container">
         <img class="youtube-apps-icon" src="/icons/youtube-apps.svg" />
+        <div class="tooltip">Youtube Apps</div>
+      </div>
         <div class="notification-icon-container">
-          <img class="notification-icon" src="/icons/notifications.svg" />
+          <div class="notificaion-container">
+
+
+            <img class="notification-icon" src="/icons/notifications.svg" />
           <div class="notifications-count">3</div>
+          </div>
+          <div class="tooltip">Notifications</div>
+          
+          
         </div>
         
         <img class="profile-picture" src="/creator-dp/mkbhd-dp.jpeg" />
       </div>
-    </div>
-    <div class="sidebar">Sidebar</div>
-    <div class="video-grid">
+    </header>
+    <nav class="sidebar">
+      <div class="sidebar-link"><img src="/icons/home.svg"><div>Home</div> </div>
+      <div class="sidebar-link"><img src="/icons/explore.svg"><div>Explore</div></div>
+      <div class="sidebar-link"><img src="/icons/subscriptions.svg"><div>Subscriptions</div></div>
+      <div class="sidebar-link"><img src="/icons/originals.svg"><div>originals</div></div>
+      <div class="sidebar-link"><img src="/icons/youtube-music.svg"><div>Music</div></div>
+      <div class="sidebar-link"><img src="/icons/library.svg"><div>Library</div></div>
+
+
+    </nav>
+    <main> 
+       <div class="video-grid">
       <!.mkbhd.>
       <div class="video-preview">
         <div class="thumbnail-row">
@@ -52,7 +84,8 @@
         <div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="creator-dp/mkbhd-dp.jpeg" />
+              
+              <img class="profile-picture"  src="creator-dp/mkbhd-dp.jpeg" />
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -166,6 +199,10 @@
           </div>
         </div>
       </div>
+    
+  
     </div>
+  </main>
+  
   </body>
 </html>
